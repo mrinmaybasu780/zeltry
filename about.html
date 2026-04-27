@@ -4,19 +4,174 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>about</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <a href="./index.html">back button</a>
-    <h2>
-      sab kuch design kar dene se maja nahi <br />hain yeh wala page bina design
-      ka dekhlo
-    </h2>
-    <p>
-      about meh kuch nahi rakha mera isnta dekhlo recently andaman gaya tha
-      ghumne, like kar dena.<br /><br />
-      <a href="https://www.instagram.com/mrinmay_basu/"
-        >yaha click karo to redirect to - instagram of me</a
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">zeltry</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">about</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                works
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./uiuxdesign.html"
+                    >ui ux design</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div
+        class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
       >
-    </p>
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1 text-body-emphasis">
+            Salvete!<br />
+          </h1>
+          <p class="lead">
+            I am mrinmay basu, a<b> ui ux designer and web developer</b> based
+            in india. <br /><br />Worked across B2B, B2C, and 3D web products,
+            turning complex ideas into simple designs.
+          </p>
+          <div
+            class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+          >
+            <button
+              type="button"
+              class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
+            >
+              <a
+                href="./uiuxdesign.html"
+                class="text-white text-decoration-none"
+                >view works</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-4 p-0 overflow-hidden shadow-lg">
+          <img
+            class="rounded-lg-3 img-fluid shadow-lg"
+            src="./assets/coding.gif"
+            alt="design gif"
+            height="600px"
+          />
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <div class="container my-5">
+      <div class="p-5 text-center bg-body-tertiary rounded-3">
+        <h1 class="text-body-emphasis">
+          let’s build something useful together
+        </h1>
+        <p class="lead">
+          <a href="tel:+918240745095"><code>call me : +91 8240745095</code></a>
+          <br /><br /><a href="mailto:basumrinmay4@gmail.com"
+            ><code>email me : basumrinmay4@gmail.com</code></a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+            aria-label="Bootstrap"
+          >
+            <svg class="bi" width="30" height="24" aria-hidden="true">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary"
+            >© 2026 mrinmay, portfolio</span
+          >
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a
+              class="text-body-secondary"
+              href="https://www.instagram.com/basumrinmay4/"
+              aria-label="Instagram"
+              ><img
+                href="#"
+                aria-label="Instagram"
+                src="./assets/icons8-instagram-old-48.png"
+                class="card-img-top instagramlogo"
+                alt="instagram logo icon"
+            /></a>
+          </li>
+          <li class="ms-3">
+            <a
+              class="text-body-secondary"
+              href="https://www.linkedin.com/in/basumrinmay4/"
+              aria-label="Facebook"
+              ><img
+                src="./assets/icons8-linkedin-48 (2).png"
+                class="card-img-top facebooklogo"
+                alt="linkedin logo iocn"
+            /></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

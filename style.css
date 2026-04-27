@@ -1,0 +1,42 @@
+.button2 {
+  background-color: #020a24;
+}
+.habitualcard {
+  height: 214px;
+  object-fit: cover;
+}
+.codebuddy21 {
+  height: 214px;
+  object-fit: cover;
+}
+.spotify22 {
+  height: 214px;
+  object-fit: cover;
+}
+.cred22 {
+  height: 214px;
+  object-fit: cover;
+}
+.instagramlogo {
+  height: 32px;
+  object-fit: cover;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.facebooklogo {
+  height: 32px;
+  object-fit: cover;
+  border-radius: 36px;
+  -webkit-border-radius: 36px;
+  -moz-border-radius: 36px;
+  -ms-border-radius: 36px;
+  -o-border-radius: 36px;
+}
+
+.homedesigngif4 {
+  height: 300px;
+  object-fit: cover;
+}
