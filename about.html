@@ -2,176 +2,135 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>about</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About | Zeltry</title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">zeltry</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <span class="logo-box">Z</span>
+        </a>
+
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          data-bs-target="#nav"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav mx-auto gap-lg-5 text-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html"
-                >home</a
-              >
+              <a class="nav-link text-white" href="./index.html">home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./about.html">about</a>
+              <a class="nav-link text-white" href="./uiuxdesign.html">works</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                works
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="./uiuxdesign.html"
-                    >ui ux design</a
-                  >
-                </li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./about.html">about</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              search
-            </button>
-          </form>
+
+          <div class="d-flex justify-content-center gap-4 mt-3 mt-lg-0">
+            <a href="https://www.instagram.com/basumrinmay4/"
+              ><img
+                src="./assets/icons8-instagram-old-48.png"
+                class="social-icon"
+                alt="instagram"
+            /></a>
+            <a href="mailto:basumrinmay4@gmail.com"
+              ><img
+                src="./assets/icons8-gmail-100.png"
+                class="social-icon"
+                alt="mail"
+            /></a>
+            <a href="https://www.linkedin.com/in/basumrinmay4/"
+              ><img
+                src="./assets/icons8-linkedin-48.png"
+                class="social-icon"
+                alt="linkedin"
+            /></a>
+          </div>
         </div>
       </div>
     </nav>
-    <div class="container my-5">
-      <div
-        class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
-      >
-        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-          <h1 class="display-4 fw-bold lh-1 text-body-emphasis">
-            Salvete!<br />
-          </h1>
-          <p class="lead">
-            I am mrinmay basu, a<b> ui ux designer and web developer</b> based
-            in india. <br /><br />Worked across B2B, B2C, and 3D web products,
-            turning complex ideas into simple designs.
-          </p>
-          <div
-            class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
-          >
-            <button
-              type="button"
-              class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
+
+    <section class="py-5">
+      <div class="container py-5">
+        <div class="row align-items-center justify-content-between gy-5">
+          <div class="col-lg-5">
+            <h1 class="fw-bold text-primary">Hi, I’m Mrinmay</h1>
+            <p class="text-muted mt-3">UI/UX Designer & Frontend Developer</p>
+
+            <p class="text-muted mt-4">
+              I turn complex ideas into clean, usable digital products. I was
+              mentored by a Microsoft UX designer who taught me the secrets of
+              good UX design.
+            </p>
+
+            <a href="./uiuxdesign.html" class="btn btn-primary mt-3 px-4"
+              >view works</a
             >
-              <a
-                href="./uiuxdesign.html"
-                class="text-white text-decoration-none"
-                >view works</a
-              >
-            </button>
+
+            <p class="small text-muted mt-5">
+              Outside work: gaming, fitness, and exploring design ideas.
+            </p>
+          </div>
+
+          <div class="col-lg-4 text-center">
+            <img
+              src="./assets/coding.gif"
+              class="hero-img img-fluid"
+              alt="coding animation"
+            />
           </div>
         </div>
-        <div class="col-lg-4 p-0 overflow-hidden shadow-lg">
-          <img
-            class="rounded-lg-3 img-fluid shadow-lg"
-            src="./assets/coding.gif"
-            alt="design gif"
-            height="600px"
-          />
-        </div>
       </div>
-    </div>
-    <br /><br />
-    <div class="container my-5">
-      <div class="p-5 text-center bg-body-tertiary rounded-3">
-        <h1 class="text-body-emphasis">
+    </section>
+
+    <section class="bg-soft cta-section d-flex align-items-center text-center">
+      <div class="container">
+        <h2 class="fw-bold text-primary">
           let’s build something useful together
-        </h1>
-        <p class="lead">
-          <a href="tel:+918240745095"><code>call me : +91 8240745095</code></a>
-          <br /><br /><a href="mailto:basumrinmay4@gmail.com"
-            ><code>email me : basumrinmay4@gmail.com</code></a
-          >
+        </h2>
+        <p class="text-muted small mx-auto mt-3" style="max-width: 520px">
+          I design clean websites, landing pages, UI/UX screens, and simple
+          product experiences.
         </p>
-      </div>
-    </div>
-    <div class="container">
-      <footer
-        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-      >
-        <div class="col-md-4 d-flex align-items-center">
+
+        <div class="d-flex justify-content-center gap-3 flex-wrap mt-4">
+          <a href="tel:+918240745095" class="btn btn-outline-dark px-4">call</a>
           <a
-            href="/"
-            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
-            aria-label="Bootstrap"
-          >
-            <svg class="bi" width="30" height="24" aria-hidden="true">
-              <use xlink:href="#bootstrap"></use>
-            </svg>
-          </a>
-          <span class="mb-3 mb-md-0 text-body-secondary"
-            >© 2026 mrinmay, portfolio</span
+            href="mailto:basumrinmay4@gmail.com"
+            class="btn btn-outline-dark px-4"
+            >mail</a
           >
         </div>
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3">
-            <a
-              class="text-body-secondary"
-              href="https://www.instagram.com/basumrinmay4/"
-              aria-label="Instagram"
-              ><img
-                href="#"
-                aria-label="Instagram"
-                src="./assets/icons8-instagram-old-48.png"
-                class="card-img-top instagramlogo"
-                alt="instagram logo icon"
-            /></a>
-          </li>
-          <li class="ms-3">
-            <a
-              class="text-body-secondary"
-              href="https://www.linkedin.com/in/basumrinmay4/"
-              aria-label="Facebook"
-              ><img
-                src="./assets/icons8-linkedin-48 (2).png"
-                class="card-img-top facebooklogo"
-                alt="linkedin logo iocn"
-            /></a>
-          </li>
-        </ul>
-      </footer>
-    </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white-50 py-4">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3"
+      >
+        <span>© 2026 mrinmay, portfolio</span>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

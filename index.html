@@ -2,311 +2,304 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>zeltry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zeltry</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">zeltry</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <span class="logo-box">Z</span>
+        </a>
+
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          data-bs-target="#nav"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav mx-auto gap-lg-5 text-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html"
-                >home</a
-              >
+              <a class="nav-link text-white" href="./index.html">home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./about.html">about</a>
+              <a class="nav-link text-white" href="./uiuxdesign.html">works</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                works
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="./uiuxdesign.html"
-                    >ui ux design</a
-                  >
-                </li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./about.html">about</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              search
-            </button>
-          </form>
+
+          <div class="d-flex justify-content-center gap-4 mt-3 mt-lg-0">
+            <a href="https://www.instagram.com/basumrinmay4/"
+              ><img
+                src="./assets/icons8-instagram-old-48.png"
+                class="social-icon"
+                alt="instagram"
+            /></a>
+            <a href="mailto:basumrinmay4@gmail.com"
+              ><img
+                src="./assets/icons8-gmail-100.png"
+                class="social-icon"
+                alt="mail"
+            /></a>
+            <a href="https://www.linkedin.com/in/basumrinmay4/"
+              ><img
+                src="./assets/icons8-linkedin-48.png"
+                class="social-icon"
+                alt="linkedin"
+            /></a>
+          </div>
         </div>
       </div>
     </nav>
-    <div
-      class="text-bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden design-karwalo"
-    >
-      <div class="my-3 py-3">
-        <h2 class="display-5">i make design</h2>
-        <p class="lead">amaaaazing & simple</p>
-        <a
-          href="mailto:basumrinmay4@gmail.com"
-          class="btn btn-primary my-2 button2"
-        >
-          hire me
+
+    <section class="bg-soft text-center py-5">
+      <div class="container py-5">
+        <h1 class="fw-bold">i make <span class="loop-text"></span> design</h1>
+
+        <a href="./uiuxdesign.html" class="btn btn-primary mt-3 px-4">
+          view my work
         </a>
-      </div>
 
-      <img
-        class="homedesigngif4 img-fluid mb-5 rounded-4 shadow-lg"
-        src="./assets/homedesigngif.gif"
-        alt="homedesign gif"
-      />
-    </div>
-    <br /><br />
-    <h2 class="container text-center mt-5">my works</h2>
-    <div class="d-flex flex-wrap justify-content-center">
-      <div class="card m-5" style="width: 18rem">
-        <img
-          src="./assets/fintechimg.png"
-          class="card-img-top habitualcard"
-          alt="landing page design image"
-        />
-        <div class="card-body habitualcard">
-          <h5 class="card-title">fintech-webite design</h5>
-          <p class="card-text">
-            fintech landing page design focused on clear communication.
-          </p>
-          <a
-            href="https://www.figma.com/proto/EIg2PSfsEf6aNAZdZIak1Q/BrainWave?node-id=5-237&viewport=-259%2C293%2C0.53&t=g82nIxY6BeqRmJn9-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=5%3A237&page-id=4%3A128"
-            class="btn btn-primary"
-            >view design</a
-          >
+        <div class="mt-5">
+          <img
+            src="./assets/homedesigngif.gif"
+            class="hero-img img-fluid"
+            alt="design animation"
+          />
         </div>
       </div>
-      <div class="card m-5" style="width: 18rem">
-        <img
-          src="./assets/spotifygif.gif"
-          class="card-img-top"
-          alt="spotify ui ux case study"
-        />
-        <div class="card-body spotify22">
-          <h5 class="card-title">spotify ux case study</h5>
-          <p class="card-text">
-            understand why users fail to complete the purchase on mobile.
-          </p>
-          <a
-            href="https://www.figma.com/design/Kpx3cpwCYF7mMzfFqYjWZm/Case-Study-Spotify?node-id=3-299&p=f&t=s8zulVNmjvs2Lf0N-0"
-            class="btn btn-primary"
-            >view case study</a
-          >
-        </div>
-      </div>
+    </section>
 
-      <div class="card m-5" style="width: 18rem">
-        <img
-          src="./assets/Hand and iPhone 16 Pro.png"
-          class="card-img-top habitualcard"
-          alt="Habitual"
-        />
-        <div class="card-body habitualcard">
-          <h5 class="card-title">habitual app design</h5>
-          <p class="card-text">
-            mobile shopping platform designed to adapt to user behavior.
-          </p>
-          <a
-            href="https://www.figma.com/proto/rHf15zqXhsKxtSioQpMGKR/Habitual-%E2%80%94-Personalized-Shopping-Experience?page-id=26629%3A2887&node-id=26629-5513&p=f&viewport=80%2C2138%2C0.21&t=pk7bLF2Hebt6yExX-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=26629%3A5459&show-proto-sidebar=1"
-            class="btn btn-primary"
-            >view prototype</a
-          >
+    <section class="py-5">
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">my <span class="text-primary">works</span></h2>
+          <p class="text-muted small">ui ux, motion, 3D,<br />development</p>
         </div>
-      </div>
 
-      <div class="card m-5" style="width: 18rem">
-        <img
-          src="./assets/ball gif (2).gif"
-          class="card-img-top habitualcard"
-          alt="Habitual"
-        />
-        <div class="card-body habitualcard">
-          <h5 class="card-title">minimal 3D motion loop</h5>
-          <p class="card-text">seamless 3D loop exploring rhythm and flow.</p>
-          <a
-            href="https://dribbble.com/shots/27313549-Minimal-3D-Motion-Loop"
-            class="btn btn-primary"
-            >view motion design</a
-          >
-        </div>
-      </div>
+        <div class="row g-5">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="project-card">
+              <div class="project-img-box mb-4">
+                <img
+                  src="./assets/fintechimg.png"
+                  class="project-img"
+                  alt="fintech website design"
+                />
+              </div>
+              <h6>fintech-website design</h6>
+              <p>fintech page design focused on clear communication.</p>
+              <a
+                href="https://www.figma.com/proto/EIg2PSfsEf6aNAZdZIak1Q/BrainWave?node-id=5-237&viewport=-259%2C293%2C0.53&t=g82nIxY6BeqRmJn9-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=5%3A237&page-id=4%3A128"
+                class="btn btn-primary btn-sm"
+                >view design</a
+              >
+            </div>
+          </div>
 
-      <div class="card m-5" style="width: 18rem">
-        <img
-          src="./assets/credimage.png"
-          class="card-img-top cred22"
-          alt="cred ui ux case study"
-        />
-        <div class="card-body cred22">
-          <h5 class="card-title">CRED's ux case study</h5>
-          <p class="card-text">
-            payment proof visibility in mobile banking app.
-          </p>
-          <a
-            href="https://www.figma.com/design/K6SgcZBekp3eJPzAoNCLMR/Cred-UX-Case-Study?node-id=9-2556&t=Tc85GaWwQUBdm2nm-1"
-            class="btn btn-primary"
-            >view case study</a
-          >
-        </div>
-      </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="project-card">
+              <div class="project-img-box mb-4">
+                <img
+                  src="./assets/spotifygif.gif"
+                  class="project-img"
+                  alt="spotify ux case study"
+                />
+              </div>
+              <h6>spotify ux case study</h6>
+              <p>why users fail to complete the purchase on mobile.</p>
+              <a
+                href="https://www.figma.com/design/Kpx3cpwCYF7mMzfFqYjWZm/Case-Study-Spotify?node-id=3-299&p=f&t=s8zulVNmjvs2Lf0N-0"
+                class="btn btn-primary btn-sm"
+                >view case study</a
+              >
+            </div>
+          </div>
 
-      <div class="card m-5" style="width: 18rem">
-        <img
-          src="./assets/daewebuikit.png"
-          class="card-img-top habitualcard"
-          alt="Habitual"
-        />
-        <div class="card-body habitualcard">
-          <h5 class="card-title">design system</h5>
-          <p class="card-text">
-            design system for a dae pumps to ensure consistency and scalability.
-          </p>
-          <a
-            href="https://www.figma.com/design/v65bvXuwWl4AUX2r61pTS5/DAE-Design-System-Main?node-id=23-343&t=9eVaRJKO5XtEgbU8-1"
-            class="btn btn-primary"
-            >view figma file</a
-          >
-        </div>
-      </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="project-card">
+              <div class="project-img-box mb-4">
+                <img
+                  src="./assets/Hand and iPhone 16 Pro.png"
+                  class="project-img"
+                  alt="habitual app design"
+                />
+              </div>
+              <h6>habitual app design</h6>
+              <p>shopping platform designed to adapt to user behavior.</p>
+              <a
+                href="https://www.figma.com/proto/rHf15zqXhsKxtSioQpMGKR/Habitual-%E2%80%94-Personalized-Shopping-Experience?page-id=26629%3A2887&node-id=26629-5513&p=f&viewport=80%2C2138%2C0.21&t=pk7bLF2Hebt6yExX-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=26629%3A5459&show-proto-sidebar=1"
+                class="btn btn-primary btn-sm"
+                >view prototype</a
+              >
+            </div>
+          </div>
 
-      <div class="card m-5" style="width: 18rem">
-        <img
-          src="./assets/codebuddymainimage.png"
-          class="card-img-top codebuddy21"
-          alt="bloom"
-        />
-        <div class="card-body codebuddy21">
-          <h5 class="card-title">website re-design</h5>
-          <p class="card-text">
-            re-designed the existing codebuddy website for clarity.
-          </p>
-          <a
-            href="https://www.figma.com/design/uCEK4iDwIp53cOyySrgesP/codebuddy?node-id=0-1&t=ULbHok8e9qPvDHd4-1"
-            class="btn btn-primary"
-            >view case study</a
-          >
-        </div>
-      </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="project-card">
+              <div class="project-img-box mb-4">
+                <img
+                  src="./assets/ball gif (2).gif"
+                  class="project-img"
+                  alt="minimal 3D motion loop"
+                />
+              </div>
+              <h6>minimal 3D motion loop</h6>
+              <p>seamless 3D loop exploring rhythm and flow.</p>
+              <a
+                href="https://dribbble.com/shots/27313549-Minimal-3D-Motion-Loop"
+                class="btn btn-primary btn-sm"
+                >view design</a
+              >
+            </div>
+          </div>
 
-      <div class="card m-5" style="width: 18rem">
-        <img
-          src="./assets/eddypump.png"
-          class="card-img-top habitualcard"
-          alt="Habitual"
-        />
-        <div class="card-body habitualcard">
-          <h5 class="card-title">dredging product design</h5>
-          <p class="card-text">
-            re-designed showcase of product for complex dredging website.
-          </p>
-          <a
-            href="https://www.figma.com/proto/MkLijkLUzchbMsZ65fDwAf/Eddy-Pump-New-Landing-Page?node-id=124-721&viewport=570%2C175%2C0.17&t=Ah0YM59PzkT0w6fd-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=124%3A721&page-id=124%3A720"
-            class="btn btn-primary"
-            >view prototype</a
-          >
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="project-card">
+              <div class="project-img-box mb-4">
+                <img
+                  src="./assets/credimage.png"
+                  class="project-img"
+                  alt="cred ux case study"
+                />
+              </div>
+              <h6>CRED's ux case study</h6>
+              <p>payment proof visibility in mobile banking app.</p>
+              <a
+                href="https://www.figma.com/design/K6SgcZBekp3eJPzAoNCLMR/Cred-UX-Case-Study?node-id=9-2556&t=Tc85GaWwQUBdm2nm-1"
+                class="btn btn-primary btn-sm"
+                >view case study</a
+              >
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="project-card">
+              <div class="project-img-box mb-4">
+                <img
+                  src="./assets/daewebuikit.png"
+                  class="project-img"
+                  alt="design system"
+                />
+              </div>
+              <h6>design system</h6>
+              <p>design system for dae pumps to ensure consistency.</p>
+              <a
+                href="https://www.figma.com/design/v65bvXuwWl4AUX2r61pTS5/DAE-Design-System-Main?node-id=23-343&t=9eVaRJKO5XtEgbU8-1"
+                class="btn btn-primary btn-sm"
+                >view figma file</a
+              >
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="project-card">
+              <div class="project-img-box mb-4">
+                <img
+                  src="./assets/codebuddymainimage.png"
+                  class="project-img"
+                  alt="website redesign"
+                />
+              </div>
+              <h6>website re-design</h6>
+              <p>re-designed the existing codebuddy website for clarity.</p>
+              <a
+                href="https://www.figma.com/design/uCEK4iDwIp53cOyySrgesP/codebuddy?node-id=0-1&t=ULbHok8e9qPvDHd4-1"
+                class="btn btn-primary btn-sm"
+                >view case study</a
+              >
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="project-card">
+              <div class="project-img-box mb-4">
+                <img
+                  src="./assets/eddypump.png"
+                  class="project-img"
+                  alt="product design page"
+                />
+              </div>
+              <h6>product design page</h6>
+              <p>re-designed product page for complex dredging website.</p>
+              <a
+                href="https://www.figma.com/proto/MkLijkLUzchbMsZ65fDwAf/Eddy-Pump-New-Landing-Page?node-id=124-721&viewport=570%2C175%2C0.17&t=Ah0YM59PzkT0w6fd-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=124%3A721&page-id=124%3A720"
+                class="btn btn-primary btn-sm"
+                >view prototype</a
+              >
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <br /><br />
-    <div class="container my-5">
-      <div class="p-5 text-center bg-body-tertiary rounded-3">
-        <h1 class="text-body-emphasis">
+    </section>
+
+    <section class="bg-soft cta-section d-flex align-items-center text-center">
+      <div class="container">
+        <h2 class="fw-bold text-primary">
           let’s build something useful together
-        </h1>
-        <p class="lead">
-          <a href="tel:+918240745095"><code>call me : +91 8240745095</code></a>
-          <br /><br /><a href="mailto:basumrinmay4@gmail.com"
-            ><code>email me : basumrinmay4@gmail.com</code></a
-          >
+        </h2>
+        <p class="text-muted small mx-auto mt-3" style="max-width: 520px">
+          I design clean websites, landing pages, UI/UX screens, and simple
+          product experiences.
         </p>
-      </div>
-    </div>
-    <div class="container">
-      <footer
-        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-      >
-        <div class="col-md-4 d-flex align-items-center">
+
+        <div class="d-flex justify-content-center gap-3 flex-wrap mt-4">
+          <a href="tel:+918240745095" class="btn btn-outline-dark px-4">call</a>
           <a
-            href="/"
-            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
-            aria-label="Bootstrap"
-          >
-            <svg class="bi" width="30" height="24" aria-hidden="true">
-              <use xlink:href="#bootstrap"></use>
-            </svg>
-          </a>
-          <span class="mb-3 mb-md-0 text-body-secondary"
-            >© 2026 mrinmay, portfolio</span
+            href="mailto:basumrinmay4@gmail.com"
+            class="btn btn-outline-dark px-4"
+            >mail</a
           >
         </div>
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3">
-            <a
-              class="text-body-secondary"
-              href="https://www.instagram.com/basumrinmay4/"
-              aria-label="Instagram"
-              ><img
-                href="#"
-                aria-label="Instagram"
-                src="./assets/icons8-instagram-old-48.png"
-                class="card-img-top instagramlogo"
-                alt="instagram logo icon"
-            /></a>
-          </li>
-          <li class="ms-3">
-            <a
-              class="text-body-secondary"
-              href="https://www.linkedin.com/in/basumrinmay4/"
-              aria-label="Facebook"
-              ><img
-                src="./assets/icons8-linkedin-48 (2).png"
-                class="card-img-top facebooklogo"
-                alt="linkedin logo iocn"
-            /></a>
-          </li>
-        </ul>
-      </footer>
-    </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white-50 py-4">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3"
+      >
+        <span>© 2026 mrinmay, portfolio</span>
+
+        <div class="d-flex gap-4">
+          <a href="https://www.instagram.com/basumrinmay4/"
+            ><img
+              src="./assets/icons8-instagram-old-48.png"
+              class="social-icon"
+              alt="instagram"
+          /></a>
+          <a href="mailto:basumrinmay4@gmail.com"
+            ><img
+              src="./assets/icons8-gmail-100.png"
+              class="social-icon"
+              alt="mail"
+          /></a>
+          <a href="https://www.linkedin.com/in/basumrinmay4/"
+            ><img
+              src="./assets/icons8-linkedin-48.png"
+              class="social-icon"
+              alt="linkedin"
+          /></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
